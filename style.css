@@ -107,7 +107,7 @@ a {
 @media only screen and (min-width: 360px) {
     .container {
         height: 800px;
-        width: 360px;
+        width: 100%;
         margin: 5px;
     }
 }
@@ -115,7 +115,7 @@ a {
 @media only screen and (min-width: 600px) {
     .container {
         height: 120vh;
-        width: 580px;
+        width: 100%;
         margin: 5px;
     }
 
@@ -142,7 +142,7 @@ a {
 @media only screen and (min-width: 768px) {
     .container {
         height: 90vh;
-        width: 580px;
+        width: 100%;
         margin: 5px;
     }
 }
