@@ -110,6 +110,19 @@ a {
         width: 100%;
         margin: 5px;
     }
+    
+    .heading .profile__icons {
+        position: relative;
+        top: 15px;
+        left: 45%;
+        color: white;
+        font-size: 20px;
+    }
+
+    .heading .profile__icons i {
+        margin-right: 50px;
+        cursor: pointer;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -118,7 +131,6 @@ a {
         width: 100%;
     }
 
-    
     .heading .profile__details p {
         color: white;
         font-size: 12px;
