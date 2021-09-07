@@ -104,6 +104,14 @@ a {
     border-radius: 10px 10px 10px 0;
 }
 
+@media only screen and (min-width: 360px) {
+    .container {
+        height: 800px;
+        width: 360px;
+        margin: 5px;
+    }
+}
+
 @media only screen and (min-width: 600px) {
     .container {
         height: 120vh;
