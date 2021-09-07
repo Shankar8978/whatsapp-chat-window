@@ -14,6 +14,7 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png);
     height: 120vh;
     width: 350px;
+    margin: 5px;
 }
 
 .heading {
@@ -105,17 +106,16 @@ a {
 
 @media only screen and (min-width: 360px) {
     .container {
-        height: 100%;
+        height: auto;
         width: 100%;
-        margin: 0;
+        margin: 5px;
     }
 }
 
 @media only screen and (min-width: 600px) {
     .container {
-        height: 120vh;
+        height: auto;
         width: 100%;
-        margin: 5px;
     }
 
     
@@ -140,8 +140,26 @@ a {
 
 @media only screen and (min-width: 768px) {
     .container {
-        height: 90vh;
-        width: 100%;
+        height: auto;
+        width: 50%;
         margin: 5px;
+    }
+
+    .heading .profile__details p {
+        color: white;
+        font-size: 15px;
+    }
+
+    .heading .profile__icons {
+        position: relative;
+        top: 15px;
+        left: 45%;
+        color: white;
+        font-size: 20px;
+    }
+
+    .heading .profile__icons i {
+        margin-right: 50px;
+        cursor: pointer;
     }
 }
